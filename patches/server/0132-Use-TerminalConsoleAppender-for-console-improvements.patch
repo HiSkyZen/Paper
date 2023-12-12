@@ -25,7 +25,7 @@ Other changes:
 Co-Authored-By: Emilia Kond <emilia@rymiel.space>
 
 diff --git a/build.gradle.kts b/build.gradle.kts
-index 6f442d70a963dfc65a1b5b9494f850456c31cde3..0bfa5a3fe47d96f159f0093c046de3f2d8a0211c 100644
+index 560b6cee0d439027fe59bf488a9bdf293aefca8b..1d7fa93d26c5b377b5ad313875218c2675568b30 100644
 --- a/build.gradle.kts
 +++ b/build.gradle.kts
 @@ -6,9 +6,30 @@ plugins {
@@ -60,7 +60,7 @@ index 6f442d70a963dfc65a1b5b9494f850456c31cde3..0bfa5a3fe47d96f159f0093c046de3f2
      implementation("org.apache.logging.log4j:log4j-iostreams:2.19.0") // Paper - remove exclusion
      implementation("org.ow2.asm:asm:9.5")
      implementation("org.ow2.asm:asm-commons:9.5") // Paper - ASM event executor generation
-@@ -79,7 +100,7 @@ relocation {
+@@ -80,7 +101,7 @@ relocation {
  }
  
  tasks.shadowJar {
@@ -206,7 +206,7 @@ index 0000000000000000000000000000000000000000..8f07539a82f449ad217e316a7513a170
 +
 +}
 diff --git a/src/main/java/io/papermc/paper/adventure/PaperAdventure.java b/src/main/java/io/papermc/paper/adventure/PaperAdventure.java
-index 1fb9b0ea9f2dbff12d8d2fbc2ad2f4d88ca9f7ad..66ff48a12c8322cfbfd17c470d03dad1f912d123 100644
+index c10c0ffa29332d73328f088935a0b914260d4c50..99871023c54e387c6ef72a4307d945047aee87fe 100644
 --- a/src/main/java/io/papermc/paper/adventure/PaperAdventure.java
 +++ b/src/main/java/io/papermc/paper/adventure/PaperAdventure.java
 @@ -22,6 +22,7 @@ import net.kyori.adventure.text.TranslatableComponent;
