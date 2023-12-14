@@ -93,10 +93,10 @@ index aad8b2fbdbb03fbf32f99b3a533716eca9d42219..405b6a388c3593a83985f766e79b9295
  
      /**
 diff --git a/src/main/java/org/bukkit/entity/Player.java b/src/main/java/org/bukkit/entity/Player.java
-index 2787f205b08b9c0dc97c6a49ade01b319ef23630..985185802e0ad5d063e83ad22a1bcc735d722f04 100644
+index 267d7ac323e5bde343ea4b4caa6ec2fc837e1a6d..03f86dbb176428380465a9163b9c0789454a49c3 100644
 --- a/src/main/java/org/bukkit/entity/Player.java
 +++ b/src/main/java/org/bukkit/entity/Player.java
-@@ -2853,6 +2853,26 @@ public interface Player extends HumanEntity, Conversable, OfflinePlayer, PluginM
+@@ -2876,6 +2876,26 @@ public interface Player extends HumanEntity, Conversable, OfflinePlayer, PluginM
      }
      // Paper end
  

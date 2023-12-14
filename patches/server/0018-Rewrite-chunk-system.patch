@@ -22811,10 +22811,10 @@ index bb60804a77ecda3c86ccf54e028e634f8d7f141d..1f160036b433c5d1fb8ed1f94adefcca
      // Spigot start
      private final org.bukkit.World.Spigot spigot = new org.bukkit.World.Spigot()
 diff --git a/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java b/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java
-index 4a7199edc2c7597cba956b2427a17efa08eb8d82..41a4f6126f24848a26ff0f928a23b5be13783c90 100644
+index aaf499cc21329a87465a0126b2ef42f932863653..346af45aa114fc969ac17077d15b60c2c337ec75 100644
 --- a/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java
 +++ b/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java
-@@ -198,6 +198,48 @@ public class CraftPlayer extends CraftHumanEntity implements Player {
+@@ -199,6 +199,48 @@ public class CraftPlayer extends CraftHumanEntity implements Player {
          this.firstPlayed = System.currentTimeMillis();
      }
  

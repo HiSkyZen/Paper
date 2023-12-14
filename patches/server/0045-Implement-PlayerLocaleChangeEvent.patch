@@ -39,10 +39,10 @@ index bf89ea0f7506434848cb9c1cbfb3fe6dd2eb3212..686b42a9b4475fe3d530a9b950c1cc8f
          // CraftBukkit end
          this.language = clientOptions.language();
 diff --git a/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java b/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java
-index 188daf2ff7766d39b62b763bab7e4ad79f85449f..6cf9ca72f042b1b936f8ba04e9582cf4da4bcb6a 100644
+index 759dfadb14814017049c473942171a09c85d4d79..cb893a2ac43b9fc353ddeb10efe9311232fd0896 100644
 --- a/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java
 +++ b/src/main/java/org/bukkit/craftbukkit/entity/CraftPlayer.java
-@@ -2265,7 +2265,10 @@ public class CraftPlayer extends CraftHumanEntity implements Player {
+@@ -2279,7 +2279,10 @@ public class CraftPlayer extends CraftHumanEntity implements Player {
  
      @Override
      public String getLocale() {
